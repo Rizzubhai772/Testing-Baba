@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testing_baba">
+
+  <parameter name="browser" value="chrome"></parameter><!--  for suit level cross browsing testin use this syntax -->
+  <test name="logintest" enabled="false">
+    <classes>
+      <class name="test.Logintest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="checkboxtest" enabled="false">
+   <groups>
+    <run>
+   <include name="regression"></include>
+   </run>
+   </groups>
+    <classes>
+       <class name="test.CheckboxTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="browser_windowstest" enabled="false">
+   <parameter name="browser" value="edge"></parameter><!--  for suit level cross browsing testin use this syntax -->
+    <classes>
+       <class name="test.Browser_windowstest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="radiobuttontest" enabled="true">
+    <classes>
+       <class name="test.Radiobuttontest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="webtabletest" enabled="false">
+  <parameter name="browser" value="chrome"></parameter><!--  for suit level cross browsing testin use this syntax -->
+    <classes>
+       <class name="test.WebtableTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Alerttest" enabled="false">
+    <classes>
+       <class name="test.Alerst_test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+    <test name="textpage" enabled="false">
+    <classes>
+       <class name="test.Textpage_elementTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+    <test name="nested_frame" enabled="false">
+    <classes>
+       <class name="test.Nested_frametest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="modeldialog" enabled="false">
+    <classes>
+        <class name="test.Modeldialog_test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+    <test name=" button_test" enabled="false">
+    <classes>
+       <class name="test.Button_test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+    <test name="testframe" enabled="false">
+    <classes>
+       <class name="test.Frame_test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="linkpage" enabled="false">
+    <classes>
+         <class name="test.Link_pagetest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="tooltips" enabled="false">
+    <classes>
+       <class name="test.Tooltip_test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Uploaddownolad" enabled="false">
+    <classes>
+       <class name="test.Upload_downolad_test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

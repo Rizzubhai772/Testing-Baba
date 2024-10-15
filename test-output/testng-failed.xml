@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing_baba]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="radiobuttontest(failed)">
+    <classes>
+      <class name="test.Radiobuttontest">
+        <methods>
+          <include name="launchurl"/>
+          <include name="clickonIMPRESSIVEbutton"/>
+          <include name="clickonyesbutton"/>
+          <include name="clickonNObutton"/>
+          <include name="getresultstatus_screenshoot"/>
+        </methods>
+      </class> <!-- test.Radiobuttontest -->
+    </classes>
+  </test> <!-- radiobuttontest(failed) -->
+</suite> <!-- Failed suite [Testing_baba] -->

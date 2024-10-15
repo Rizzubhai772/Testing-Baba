@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.Button_test">
+        <methods>
+          <include name="getlaunch"/>
+          <include name="clickonright"/>
+          <include name="clickme"/>
+          <include name="clickondubble"/>
+        </methods>
+      </class> <!-- test.Button_test -->
+      <class name="test.Link_pagetest">
+        <methods>
+          <include name="clickondemo"/>
+          <include name="getlaunch"/>
+        </methods>
+      </class> <!-- test.Link_pagetest -->
+      <class name="test.Nested_frametest">
+        <methods>
+          <include name="clickonhereTEST"/>
+          <include name="getlaunch"/>
+        </methods>
+      </class> <!-- test.Nested_frametest -->
+      <class name="test.Frame_test">
+        <methods>
+          <include name="getlaunch"/>
+          <include name="clickframe1"/>
+          <include name="clickframe2"/>
+        </methods>
+      </class> <!-- test.Frame_test -->
+      <class name="test.Alerst_test">
+        <methods>
+          <include name="confirm_boxtest"/>
+          <include name="clickonSeealerttest"/>
+          <include name="clickon_promptboxtest6"/>
+          <include name="Clickafter5sectest"/>
+          <include name="getlaunchurl"/>
+        </methods>
+      </class> <!-- test.Alerst_test -->
+      <class name="test.Modeldialog_test">
+        <methods>
+          <include name="clickon_largemodel"/>
+          <include name="getlaunch"/>
+          <include name="clickon_smallmodel"/>
+        </methods>
+      </class> <!-- test.Modeldialog_test -->
+      <class name="test.CheckboxTest">
+        <methods>
+          <include name="mobilechecboxfill"/>
+          <include name="laptopchecboxfill"/>
+          <include name="getlaunchurl"/>
+          <include name="destopchecboxfill"/>
+        </methods>
+      </class> <!-- test.CheckboxTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
