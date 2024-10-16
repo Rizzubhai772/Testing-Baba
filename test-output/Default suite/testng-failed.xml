@@ -3,17 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.Button_test">
+      <class name="test.Logintest">
         <methods>
-          <include name="clickonbutton"/>
-          <include name="clickonright"/>
-          <include name="clickme"/>
-          <include name="getresultstatus_screenshoot"/>
-          <include name="launchurl"/>
-          <include name="clickondubble"/>
-          <include name="clickonelements"/>
+          <include name="clickOnClose"/>
+          <include name="getverifyTile"/>
+          <include name="getlaunchurl"/>
         </methods>
-      </class> <!-- test.Button_test -->
+      </class> <!-- test.Logintest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
